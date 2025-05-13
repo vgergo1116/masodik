@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0px;
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    background-size: cover;
+}
+
+.container
+{
+    border: 1px solid;
+    width: 400px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border-radius: 20px;
+    color:#373753;
+    font-weight: bold;
+    background-color: rgb(225, 255, 221);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+form
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+input
+{
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid black;
+}
+
+h1
+{
+    text-align: center;
+}
+
+.text-container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container p
+{
+    margin: 0px;
+}
+
+.left-text
+{
+    display: flex;
+}
+
+button
+{
+    padding: 1em;
+    border-radius: 30px;
+    border: 0px;
+    cursor: pointer;
+}
+
+.register-text
+{
+    text-align: center;
+}
+
+.register-text span:hover
+{
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
+
+.right-text p:hover
+{
+    border-bottom: 1px solid;
+    cursor: pointer;
+}
